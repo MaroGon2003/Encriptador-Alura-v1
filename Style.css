@@ -230,11 +230,14 @@ main{
 @media (max-width: 57.5em) {
     main{
         display: flex;
-        flex-direction: row;
+        flex-direction:row;
     }
     .resultado{
-        top: 95%;
-        left: 0%;
+        top: 100%;
+        left: 1%;
+        width: 90%;
+    }
+    .resultado img{
         width: 100%;
     }
     .logo{
@@ -250,5 +253,18 @@ main{
         width: 80%;
         left: 10%;
         top: 80%;
+    }
+
+    .botones{
+        top: 81%;
+        flex-direction: column;
+    }
+
+    .btnDesencriptar{
+        margin-left: 0px;
+        margin-top: 24px;
+    }
+    .info{
+        top: 79%;
     }
 }
