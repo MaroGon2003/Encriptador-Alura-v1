@@ -228,26 +228,39 @@ main{
 }
 
 @media (max-width: 57.5em) {
+    *{
+        background: #F3F5FC;
+    }
     main{
         display: flex;
         flex-direction:row;
+        position:absolute;
+        height: 100%;
     }
     .resultado{
-        top: 100%;
-        left: 1%;
+        margin-top: 20px;
+        top: 90%;
+        left: 5%;
         width: 90%;
+        background:#FFFFFF;
     }
     .resultado img{
         width: 100%;
+        background: #FFFFFF;
+    }
+    .mensaje-encriptado,
+    .mensaje-encriptado h2,
+    .mensaje-encriptado p{
+        background: #FFFFFF;
     }
     .logo{
         top: 5%;
     }
     .textArea{
         width: 80%;
-        height: 60%;
+        height: 50%;
         left: 10%;
-        top: 20%;
+        top: 15%;
     }
     .info{
         width: 80%;
@@ -256,15 +269,23 @@ main{
     }
 
     .botones{
-        top: 81%;
+        top: 70%;
+        left: 8%;
         flex-direction: column;
     }
 
     .btnDesencriptar{
         margin-left: 0px;
-        margin-top: 24px;
+        margin-top: 20px;
     }
     .info{
-        top: 79%;
+        top: 68%;
+    }
+    .salida,
+    .salida p{
+        background: #FFFFFF;
+    }
+    .copy{
+        margin-left: 1%;
     }
 }
