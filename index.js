@@ -40,6 +40,7 @@ function Desencriptar(){
     }else{
         swal ( "Oops" ,  "Something went wrong!" ,  "error" );
     }
+    document.getElementById("entrada").value = "";
 }
 
 function CopiarText(){
