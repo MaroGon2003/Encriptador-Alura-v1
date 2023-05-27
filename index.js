@@ -19,9 +19,9 @@ function Encriptar(){
         MostrarBtn();
         textSalida.textContent = textCodificado;
     }else{
-        alert("Ingrese texto");
+        swal ( "Oops" ,  "Ingrese texto porfavor!" ,  "error" );
     }
-
+    document.getElementById("entrada").value = "";
 }
 
 function Desencriptar(){
@@ -37,12 +37,16 @@ function Desencriptar(){
 
     if (textCodificado.length != 0) {
         textSalida.textContent = text;
+    }else{
+        swal ( "Oops" ,  "Something went wrong!" ,  "error" );
     }
 }
 
 function CopiarText(){
     let textSalida = document.getElementById("textSalida").innerHTML;
     navigator.clipboard.writeText(textSalida);
+    swal("Se copio al portapapeles!", "", "success");
+    document.getElementById("textSalida").innerHTML="";
 }
 
 function ocultarCont(){
