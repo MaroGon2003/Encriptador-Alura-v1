@@ -1,4 +1,6 @@
 # Encriptador-Alura-v1
-Encriptador de texto - Alura Challenges ONE
+
+![](https://raw.githubusercontent.com/EduardoUT/ConversorMoneda-ONE-Alura_Challenge/master/src/Imagenes/challengeImage.jpg) Encriptador de texto - Alura Challenges ONE
+
 
 
